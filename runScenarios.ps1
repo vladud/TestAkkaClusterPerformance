@@ -3,13 +3,13 @@ Param(
     [ValidateSet('NoBatchCausingUnreachable','WithBatchCausingUnreachable','WithBatchNoUnreachable')]
     $scenario = 'NoBatchCausingUnreachable',
     [switch]
-    $buildBeforeRun
+    $dontBuild
 )
 
 Get-Process | Where-Object {$_.MainWindowTitle -like '*TestAkkaClusterLighthouseExe'} | Stop-Process
 Get-Process | Where-Object {$_.MainWindowTitle -like '*TestAkkaClusterPerformanceExe'} | Stop-Process
 
-if ($buildBeforeRun -eq $true)
+if ($dontBuild -ne $true)
 {
     dotnet publish '.\src\Lighthouse\Lighthouse.csproj' --framework netcoreapp3.1 -c Release -o '.\publish\Lighthouse'
     dotnet publish '.\src\TestAkkaCluster\TestAkkaClusterPerformance.csproj' --framework net6.0 -c Release -o '.\publish\TestAkkaClusterPerformance'

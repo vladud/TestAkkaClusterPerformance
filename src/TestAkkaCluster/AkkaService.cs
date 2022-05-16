@@ -36,7 +36,6 @@ namespace TestAkkaClusterPerformance
 
         public AkkaService(IServiceProvider serviceProvider, IHostApplicationLifetime appLifetime, TestParams testParams)
         {
-            Debugger.Launch();
             _serviceProvider = serviceProvider;
             _applicationLifetime = appLifetime;
             _testParams = testParams;
