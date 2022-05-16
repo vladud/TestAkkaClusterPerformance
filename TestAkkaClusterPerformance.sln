@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAkkaClusterPerformance", "src\TestAkkaCluster\TestAkkaClusterPerformance.csproj", "{B8E7E573-2F8D-4D56-B33E-9770BEE62DEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAkkaCluster.Tests", "src\TestAkkaCluster.Tests\TestAkkaCluster.Tests.csproj", "{C3E29605-EB45-4ACC-9A38-9A885D06847B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{89D844A7-EFDD-4546-95F9-FF435E483427}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9DA638E2-14B4-4A6A-8736-0080F66D6852}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		RELEASE_NOTES.md = RELEASE_NOTES.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lighthouse", "src\Lighthouse\Lighthouse.csproj", "{F6340C1F-579F-435A-A3C3-ADCA227BCC6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8E7E573-2F8D-4D56-B33E-9770BEE62DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E7E573-2F8D-4D56-B33E-9770BEE62DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E7E573-2F8D-4D56-B33E-9770BEE62DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E7E573-2F8D-4D56-B33E-9770BEE62DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E29605-EB45-4ACC-9A38-9A885D06847B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E29605-EB45-4ACC-9A38-9A885D06847B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E29605-EB45-4ACC-9A38-9A885D06847B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E29605-EB45-4ACC-9A38-9A885D06847B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D844A7-EFDD-4546-95F9-FF435E483427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D844A7-EFDD-4546-95F9-FF435E483427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6340C1F-579F-435A-A3C3-ADCA227BCC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6340C1F-579F-435A-A3C3-ADCA227BCC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6340C1F-579F-435A-A3C3-ADCA227BCC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6340C1F-579F-435A-A3C3-ADCA227BCC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B99E6BB8-642A-4A68-86DF-69567CBA700A}
+	EndGlobalSection
+EndGlobal

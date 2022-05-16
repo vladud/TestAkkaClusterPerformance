@@ -1,0 +1,9 @@
+{
+  "NoOfWorkers": 1000,
+  "DoWarmup": true,
+  "ShiftInMs": 500,
+  "SendInBatches": false,
+  "BatchSize": 30,
+  "BatchDelayInMs": 400,
+  "StartAfterInSeconds": 10
+}
